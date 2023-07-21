@@ -1,8 +1,11 @@
 package com.example.project;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -34,6 +37,13 @@ public class RecycleView1 extends AppCompatActivity {
 
 
     public void btnToSUbject(View view){
+
+    String st=sp.getSelectedItem().toString();
+
+      Intent  intent=new Intent(this, Descrption.class);
+        intent.putExtra("name",st);
+
+    startActivity(intent);
 
 
     }

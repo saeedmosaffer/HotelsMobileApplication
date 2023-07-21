@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Project</string>
     <string-array name="subject">
-        <item>Merado (****)</item>
-        <item>Casablanca (***)</item>
-        <item>Royal cort (****)</item>
-        <item>Melenoem(*****)</item>
-        <item>Karmel (*****)</item>
+        <item>Merado</item>
+        <item>Casablanca</item>
+        <item>Royal cort</item>
+        <item>Melenoem</item>
+        <item>Karmel</item>
 
     </string-array>
 </resources>
